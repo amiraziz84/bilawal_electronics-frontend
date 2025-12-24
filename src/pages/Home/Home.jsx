@@ -32,6 +32,11 @@ import removebg_preview from '../../assets/01-6-600x600-removebg-preview (2) 1.p
 import Group_94 from '../../assets/Group 94.png'
 import Group_95 from '../../assets/Group 95.png'
 import Group_96 from '../../assets/Group 96.png'
+import Rectangle_10397_1 from '../../assets/Rectangle 10397 (1).png'
+import Rectangle_10397 from '../../assets/Rectangle 10397.png'
+
+
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -152,7 +157,7 @@ const Home = () => {
     >
       {/* CARD 1 */}
       <div className="relative bg-[#f4f5f7] w-full max-w-[228px] mx-auto rounded-md overflow-hidden">
-        <div className="absolute -top-[35px] -left-[35px] text-white text-[10px] pt-[58px] pl-3 w-[68px] h-[68px] bg-[#d5152b] rotate-[-45deg]">
+        <div className="absolute -top-[35px] -left-[35px] text-white text-[5px] pt-[58px] pl-3 w-[68px] h-[68px] bg-[#d5152b] rotate-[-45deg]">
           Discount Offer 25%
         </div>
 
@@ -368,32 +373,27 @@ const Home = () => {
                   border
                   border-[#eee]
                   px-4
-                  pt-6
+                  pt-12
                   pb-4
                   text-center
                 "
               >
                 {/* Discount Ribbon */}
                 {card.discount && (
-                  <div className="absolute top-0 right-0 w-[90px] h-[90px] overflow-hidden">
+                  <div className="absolute top-0 right-0 w-[90px] h-[90px] ">
                     <div
-                      className="
-                        absolute
-                        -right-[32px]
-                        w-[140px]
-                        bg-[#d5152b]
-                        text-white
-                        text-[8px]
-                        text-center
-                        py-[4px]
-                        clip-path-[polygon(87%_0,_95%_5%,_100%_12%,_100%_29%,_64%_29%,_55%_27%,_53%_18%,_53%_0)]
-                      "
-                    >
-                      40% Off
-                    </div>
-                  </div>
-                )}
-
+                    className="
+                        absolute -right-[53px] w-[140px]  ">
+                        <img src={Rectangle_10397_1} alt="Rectangle_10397_1" />
+                      </div>
+                    
+                    <div
+                      className=" absolute -right-[30px] w-[140px] text-white text-[8px] text-center py-[8px] ">
+                      40% Off  
+                      </div>  
+                  </div>      
+                )}        
+                        
                 {/* Image */}
                 <div className="flex justify-center items-center h-[170px]">
                   <img src={card.img} alt="" className={card.imgClass} />
@@ -467,6 +467,20 @@ const Home = () => {
 
       {/* CARD 1 */}
       <div className="relative w-full max-w-[283px] h-[336px] bg-[#f4f5f7] rounded-md shadow-md overflow-hidden">
+        <div className="absolute top-0 left-0 w-[90px] h-[90px]">
+  
+  {/* Image */}
+  <div className="absolute -left-[0px] w-[140px]">
+    <img src={Rectangle_10397} alt="Rectangle_10397" />
+  </div>
+
+  {/* Text */}
+  <div className="absolute -left-[30px] w-[140px] text-white text-[8px] text-center py-[8px]">
+    40% Off
+  </div>
+
+</div>
+
         <img
           src={Rectangle_17}
           alt=""
