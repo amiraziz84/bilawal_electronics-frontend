@@ -113,7 +113,7 @@ const Home = () => {
     </SwiperSlide>
   </Swiper>
   {/* ===== Custom Navigation Buttons ===== */}
-<div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-between px-[60px]">
+<div className="pointer-events-none absolute inset-0 z-50 flex items-center  justify-between px-[60px]">
   
   {/* Left Button */}
   <button className="custom-prev pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#34c6cf] text-white text-xl font-bold transition hover:scale-105">
