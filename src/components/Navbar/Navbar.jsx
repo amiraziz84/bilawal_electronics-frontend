@@ -1,9 +1,9 @@
-import { useState } from "react";
-import Logo from "../../assets/logo.png";
-import search from "../../assets/mingcute_search-line.svg";
-import heart from "../../assets/mdi_heart-outline.svg";
-import bag from "../../assets/lets-icons_bag.svg";
-import user from "../../assets/ooui_user-avatar-outline.svg";
+import { useState } from 'react'
+import Logo from '../../assets/Logo.png'
+import search from '../../assets/mingcute_search-line.svg'
+import heart from '../../assets/mdi_heart-outline.svg'
+import bag from '../../assets/lets-icons_bag.svg'
+import user from '../../assets/ooui_user-avatar-outline.svg'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <img
             src={Logo}
-            alt="logo"
+            alt="Logo"
             className="w-[106px] h-[40px]"
           />
         </div>
