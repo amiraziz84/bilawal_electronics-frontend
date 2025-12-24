@@ -113,15 +113,15 @@ const Home = () => {
     </SwiperSlide>
   </Swiper>
   {/* ===== Custom Navigation Buttons ===== */}
-<div className="pointer-events-none absolute inset-0 z-50 flex items-center  justify-between px-[60px]">
+<div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-between px-[60px]">
   
   {/* Left Button */}
-  <button className="custom-prev pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#34c6cf] text-white text-xl font-bold transition hover:scale-105">
+  <button className="custom-prev pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#34c6cf] text-white text-[40px] pb-3  transition hover:scale-105">
     ‹
   </button>
 
   {/* Right Button */}
-  <button className="custom-next pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#34c6cf] text-white text-xl font-bold transition hover:scale-105">
+  <button className="custom-next pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#34c6cf] text-white text-[40px] pb-3 transition hover:scale-105">
     ›
   </button>
 
@@ -416,11 +416,11 @@ const Home = () => {
 
     {/* ===== Custom Navigation Buttons (CENTER LEFT & RIGHT) ===== */}
     <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-between ">
-      <button className="custom-prev pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#f7d0d5] text-[#d5152b] text-xl font-bold transition hover:scale-105">
+      <button className="custom-prev pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#f7d0d5] text-[#d5152b] text-[40px] pb-3 transition hover:scale-105">
         ‹
       </button>
 
-      <button className="custom-next pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#f7d0d5] text-[#d5152b] text-xl font-bold transition hover:scale-105">
+      <button className="custom-next pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full bg-[#f7d0d5] text-[#d5152b] text-[40px] pb-3 transition hover:scale-105">
         ›
       </button>
     </div>
